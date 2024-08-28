@@ -98,7 +98,6 @@ h1.title {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -107,6 +106,7 @@ h1.title {
     justify-content: center;
     align-items: center;
     gap: 50px;
+    flex-wrap: wrap;
 }
 
 .barberry,
