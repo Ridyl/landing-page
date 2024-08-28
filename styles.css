@@ -22,6 +22,7 @@ h1.title {
     color: #F9FAF8;
 }
 
+
 .header_container {
     background-color: #1F2937;
     display: flex;
@@ -33,10 +34,57 @@ h1.title {
     font-size: 18px;
     display: flex;
     justify-content: space-between;
-    margin-left: 120px;
-    margin-right: 120px;
+    padding-left: 300px;
+    padding-right: 300px;
     align-items: center;
 }
+
+.header_second {
+
+    display: flex;
+    margin: 40px 300px 100px 300px;
+    justify-content: space-between;
+    gap: 24px;
+    overflow: hidden;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.sign_up_blue {
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: #F9FAF8;
+    font-weight: 600;
+    width: 14ch;
+    text-align: center;
+    padding: 8px 12px;
+}
+
+.info > p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.info > h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+
+
+.image_box {
+    background-color: white;
+    opacity: 30%;
+    flex-grow: 1;
+    width: 50%;
+}
+
 
 
 
