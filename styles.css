@@ -34,8 +34,7 @@ h1.title {
     font-size: 18px;
     display: flex;
     justify-content: space-between;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding: 0 300px;
     align-items: center;
 }
 
@@ -85,6 +84,65 @@ h1.title {
     width: 50%;
 }
 
+.body_container_one {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 300px 120px;
+}
+
+.body_first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.barberry,
+.chili,
+.pepper,
+.saffron {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #1F2937;
+    width: 150px;
+}
+
+.images > * > img {
+    width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    background-color: #cfe0fc;
+}
+
+.body_container_two {
+    background-color: #E5E7EB;
+    display: flex;
+    padding: 120px 400px;
+}
+
+.body_second .quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.body_second .signature {
+    font-size: 28px;
+    color: #1F2937;
+    font-weight: 600;
+    text-align: end;
+}
 
 
 
